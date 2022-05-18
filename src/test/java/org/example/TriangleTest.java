@@ -1,12 +1,9 @@
 package org.example;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.example.lesson4.TriangleFindTheArea;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
