@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Autorisation {
+public class Authorization {
     WebDriver driver;
     WebDriverWait webDriverWait;
     Actions actions;
@@ -18,12 +18,12 @@ public class Autorisation {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement ButtonIn;
 
-    public Autorisation(WebDriver driver) {
-    }
-public void Agent(String login, String password){
+    public void Agent (String login, String password){
+
         Login.sendKeys(login);
         Pswd.sendKeys(password);
         ButtonIn.click();
+
 }
     public void LoginPage(WebDriver driver) {
         this.driver = driver;
